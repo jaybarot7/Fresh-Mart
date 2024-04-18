@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="faqs.css" />
+    <script
+      src="https://kit.fontawesome.com/03098a1407.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <title>FAQ</title>
+  </head>
+
+  <body>
+    <!-- LOGO -->
+    <nav class="navigation">
+      <a href="#" class="logo"> <span>Fresh</span>Mart </a>
+      <!-- LOGO ENDS -->
+      <!-- NAVIGATION -->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="faq.html" class="active">FAQs</a></li>
+        <li><a href="login.html">Sign&nbsp;up</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <div class="nav container">
+        <i class="bx bxs-shopping-bag" id="cart-icon"></i>
+        <!-- cart  -->
+        <div class="cart">
+          <h2 class="cart-title">Your cart</h2>
+          <!-- content  -->
+          <div class="cart-content"></div>
+          <!-- total  -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <!-- buy button  -->
+          <button type="button" class="button-buy">Buy now</button>
+          <!-- cart close  -->
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+    </nav>
+    <!-- NAVIGATION ENDS -->
+    <div id="Search-container">
+      <input type="text" id="faq-search" placeholder="Search FAQs..." />
+    </div>
+    <section class="faq-category">
+      <h2>Groceries</h2>
+      <div class="faq-question">
+        1. What types of grocery items do you offer?
+      </div>
+      <div class="faq-answer">
+        We offer a wide range of grocery items including pantry staples,
+        snacks,beverages, and more.
+      </div>
+      <div class="faq-question">2. Do you offer organic options?</div>
+      <div class="faq-answer">
+        Yes, we provide a variety of organic grocery items to meet your dietary
+        preferences.
+      </div>
+      <div class="faq-question">
+        3.Are there any discounts for bulk purchases?
+      </div>
+      <div class="faq-answer">
+        Yes, we offer discounts for bulk purchases on selected grocery items.
+      </div>
+      <div class="faq-question">
+        4. Can I request specific brands for certain products?
+      </div>
+      <div class="faq-answer">
+        Yes, we aim to accommodate special requests for specific brands whenever
+        possible.
+      </div>
+    </section>
+
+    <section class="faq-category">
+      <h2>Fruits& Veggies</h2>
+      <div class="faq-question">1. What types of fruits do you sell?</div>
+      <div class="faq-answer">
+        We sell a variety of fresh fruits including apples, oranges, bananas,
+        berries, and more.
+      </div>
+      <div class="faq-question">2. Are your fruits organic?</div>
+      <div class="faq-answer">
+        Some of our fruits are organic. You can find organic options labeled
+        accordingly in our store.
+      </div>
+      <div class="faq-question">
+        3. How do you ensure the freshness of the fruits?
+      </div>
+      <div class="faq-answer">
+        We source our fruits from trusted suppliers and ensure that they are
+        fresh and of high quality before they reach our customers.
+      </div>
+      <div class="faq-question">4. Can I request ripe or unripe fruits?</div>
+      <div class="faq-answer">
+        Yes, you can specify your preference for ripe or unripe fruits in the
+        order notes, and we'll do our best to accommodate your request.
+      </div>
+    </section>
+    <section class="faq-category">
+      <h2>Payments</h2>
+      <div class="faq-question">1. What payment methods do you accept?</div>
+      <div class="faq-answer">
+        We accept payments via credit/debit cards, PayPal, and online bank
+        transfer.
+      </div>
+      <div class="faq-question">
+        2. Is it safe to enter my payment details on your website?
+      </div>
+      <div class="faq-answer">
+        Yes, we use secure encryption technology to protect your payment
+        information and ensure safe transactions.
+      </div>
+      <div class="faq-question">
+        3. Do you offer cash on delivery (COD) option?
+      </div>
+      <div class="faq-answer">
+        Yes, we provide cash on delivery option for selected locations. Please
+        check if COD is available in your area during checkout.
+      </div>
+      <div class="faq-question">
+        4. Can I pay in installments for large purchases?
+      </div>
+      <div class="faq-answer">
+        We currently do not offer installment payment plans. However, you can
+        use third-party financing options available through selected payment
+        gateways.
+      </div>
+    </section>
+    <section class="faq-category">
+      <h2>Returns-Refunds</h2>
+      <div class="faq-question">
+        1. How do I initiate a return for a grocery item purchased from
+        Freshmart?
+      </div>
+      <div class="faq-answer">
+        To initiate a return, simply contact our customer support team within
+        [number] days of receiving your order. They will guide you through the
+        return process and provide you with a return authorization if
+        applicable.
+      </div>
+      <div class="faq-question">
+        2. What is Freshmart's return policy for grocery items?
+      </div>
+      <div class="faq-answer">
+        Our return policy allows for returns of grocery items within [number]
+        days of purchase, provided they are unopened, unused, and in their
+        original packaging. Items that are perishable or have a limited shelf
+        life may have different return guidelines.
+      </div>
+      <div class="faq-question">
+        3. Can I return perishable items such as fruits, vegetables, or dairy
+        products?
+      </div>
+      <div class="faq-answer">
+        Due to the perishable nature of these items, we are unable to accept
+        returns for fruits, vegetables, dairy products, and other perishable
+        items unless they are damaged or defective upon delivery. Please inspect
+        your perishable items upon receipt and contact us immediately if you
+        encounter any issues.
+      </div>
+      <div class="faq-question">
+        4. What should I do if I receive a damaged or incorrect grocery item?
+      </div>
+      <div class="faq-answer">
+        If you receive a damaged or incorrect grocery item, please contact our
+        customer support team as soon as possible. We will arrange for a
+        replacement or refund, depending on the situation, and may request
+        photos or additional information to facilitate the process.
+      </div>
+    </section>
+    <section class="faq-category">
+      <h2>Loyalty Program and Rewards</h2>
+      <div class="faq-question">
+        1. Do you have a loyalty program for frequent shoppers?
+      </div>
+      <div class="faq-answer">
+        Yes, we offer a loyalty program called "FreshMart Rewards" for our
+        valued customers. You can earn points on every purchase, which can be
+        redeemed for discounts, free products, or other rewards. Sign up for our
+        loyalty program to start earning points today!
+      </div>
+      <div class="faq-question">
+        2. How do I join the FreshMart Rewards program?
+      </div>
+      <div class="faq-answer">
+        Joining our loyalty program is easy! Simply create an account on our
+        website or mobile app, and you'll automatically be enrolled in FreshMart
+        Rewards. Start earning points on your purchases and enjoy exclusive
+        benefits as a member.
+      </div>
+    </section>
+    <section class="faq-category">
+      <h2>Product Availability and Quality</h2>
+      <div class="faq-question">
+        1. Do you have a loyalty program for frequent shoppers?
+      </div>
+      <div class="faq-answer">
+        You can check the availability of a product by visiting our website or
+        mobile app and searching for the item. If the product is available,
+        you'll see it listed with details such as price and quantity in stock.
+      </div>
+      <div class="faq-question">
+        2. How do I join the FreshMart Rewards program?
+      </div>
+      <div class="faq-answer">
+        Joining our loyalty program is easy! Simply create an account on our
+        website or mobile app, and you'll automatically be enrolled in FreshMart
+        Rewards. Start earning points on your purchases and enjoy exclusive
+        benefits as a member.
+      </div>
+    </section>
+    <script src="faq-search.js"></script>
+     <!-- FOOTER -->
+     <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="#"><span>FRESH</span>MART</a>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://twitter.com/?lang=en-in"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <strong>Contact</strong>
+          <ul>
+            <li><a href="#">Phone : +123456789</a></li>
+            <li><a href="#">Email : freshmart@gmail.com</a></li>
+          </ul>
+          <br />
+          <p style="color: aliceblue">Copyright ©2024 | FRESH MART</p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+  </body>
+</html>

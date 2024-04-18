@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Mart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- or -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/03098a1407.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- LOGO -->
+    <nav class="navigation">
+      <a href="#" class="logo"> <span>Fresh</span>Mart </a>
+      <!-- LOGO ENDS -->
+      <!-- NAVIGATION -->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="login.html">Sign&nbsp;up</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <!-- CART -->
+      <div class="nav container">
+        <i class="bx bxs-shopping-bag" id="cart-icon"></i>
+        <!-- cart  -->
+        <div class="cart">
+          <h2 class="cart-title">Your cart</h2>
+          <!-- content  -->
+          <div class="cart-content"></div>
+          <!-- total  -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <!-- buy button  -->
+          <button type="button" class="button-buy">Buy now</button>
+          <!-- cart close  -->
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+      </div>
+      <!-- CART ENDS -->
+      <!-- <div class="right-nav">
+        <a href="" class="cart">
+          <i class="fas fa-shopping-cart cart" id="cart-icon"></i>
+          <span>0</span>
+        </a>
+      </div> -->
+    </nav>
+    <!-- NAVIGATION ENDS -->
+    <!-- PRODUCTS -->
+    <section id="popular-product">
+      <div class="product-heading">
+        <h3>Popular Product</h3>
+      </div>
+      <div class="product-container">
+        <div class="product-box">
+          <img alt="apple" src="images/apple.png" class="product-img" />
+          <strong class="product-title">Apple</strong>
+          <!-- <span class="quantity">1 LB</span> -->
+          <span class="price">$8.0</span>
+          <!--cart-btn------->
+          <a href="" class="cart-btn" style="text-decoration: none">
+            <i class="fas fa-shopping-bag"></i> Add to Cart
+          </a>
+        </div>
+        <div class="product-box">
+          <img alt="chili" src="images/chili.png" class="product-img" />
+          <strong class="product-title">Chili</strong>
+          <!-- <span class="quantity">1 LB</span> -->
+          <span class="price">$3.0</span>
+          <!--cart-btn------->
+          <a
+            href="Shopping Cart HTML.html"
+            class="cart-btn"
+            style="text-decoration: none"
+          >
+            <i class="fas fa-shopping-bag"></i> Add to Cart
+          </a>
+        </div>
+        <div class="product-box">
+          <img alt="apple" src="images/onion.png" class="product-img" />
+          <strong class="product-title">Onion</strong>
+          <!-- <span class="quantity">1 LB</span> -->
+          <span class="price">$6.0</span>
+          <!--cart-btn------->
+          <a
+            href="Shopping Cart HTML.html"
+            class="cart-btn"
+            style="text-decoration: none"
+          >
+            <i class="fas fa-shopping-bag"></i> Add to Cart
+          </a>
+        </div>
+        <div class="product-box">
+          <img alt="apple" src="images/patato.png" class="product-img" />
+          <strong class="product-title">Potato</strong>
+          <!-- <span class="quantity">1 LB</span> -->
+          <span class="price">$3.0</span>
+          <!--cart-btn------->
+          <a
+            href="Shopping Cart HTML.html"
+            class="cart-btn"
+            style="text-decoration: none"
+          >
+            <i class="fas fa-shopping-bag"></i> Add to Cart
+          </a>
+        </div>
+        <div class="product-box">
+          <img alt="oranges" src="images/garlic.png" class="product-img" />
+          <strong class="product-title">Garlic</strong>
+          <!-- <span class="quantity">1 LB</span> -->
+          <span class="price">$3.0</span>
+          <!--cart-btn------->
+          <a
+            href="Shopping Cart HTML.html"
+            class="cart-btn"
+            style="text-decoration: none"
+          >
+            <i class="fas fa-shopping-bag"></i> Add to Cart
+          </a>
+        </div>
+        <div class="product-box">
+          <img alt="apple" src="images/tamato.png" class="product-img" />
+          <strong class="product-title">Tomato</strong>
+          <!-- <span class="quantity">1 LB</span> -->
+          <span class="price">$8.0</span>
+          <!--cart-btn------->
+          <a
+            href="Shopping Cart HTML.html"
+            class="cart-btn"
+            style="text-decoration: none"
+          >
+            <i class="fas fa-shopping-bag"></i> Add to Cart
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- PRODUCTS ENDS -->
+    <!-- POPULAR -->
+    <section id="popular-bundle-pack">
+      <div class="product-heading">
+        <h3>Popular Bundle Pack</h3>
+      </div>
+      <div class="product-container">
+        <div class="product-box">
+          <img alt="pack" src="images/pack1.png" class="product-img" />
+          <strong class="product-title">Big Pack</strong>
+          <span class="quantity">Lemon, Tomato, Potato,+4</span>
+          <span class="price">$15.0</span>
+          <a href="" class="cart-btn"
+            ><i class="fas fa-shopping-bag"></i> Add to Cart</a
+          >
+        </div>
+        <div class="product-box">
+          <img alt="apple" src="images/pack2.jpg" class="product-img" />
+          <strong class="product-title">Large Pack</strong>
+          <span class="quantity">Lemon, Tomato, Potato,+2</span>
+          <span class="price">$10.0</span>
+          <a href="" class="cart-btn"
+            ><i class="fas fa-shopping-bag"></i> Add to Cart</a
+          >
+        </div>
+        <div class="product-box">
+          <img alt="apple" class="product-img" src="images/pack3.png" />
+          <strong class="product-title">Small Pack</strong>
+          <span class="quantity">Lemon, Tomato, Potato</span>
+          <span class="price">$7.0</span>
+          <a href="" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add to Cart
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--POPULAR ENDS-->
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="#"><span>FRESH</span>MART</a>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://twitter.com/?lang=en-in"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <strong>Contact</strong>
+          <ul>
+            <li><a href="#">Phone : +123456789</a></li>
+            <li><a href="#">Email : freshmart@gmail.com</a></li>
+          </ul>
+          <br />
+          <p style="color: aliceblue">Copyright ©2024 | FRESH MART</p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+    <script src="categories.js"></script>
+  </body>
+</html>
